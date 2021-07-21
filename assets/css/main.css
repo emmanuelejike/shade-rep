@@ -1,0 +1,538 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element-container{
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(199, 196, 196, 0.466);
+}
+
+html,
+body{
+    line-height: 1.0;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 20px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+header{
+    padding: 8px;
+    background: rgba(88, 86, 86, 0.068);
+    margin-top: 10px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+li,a{
+    padding: 10px 5px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.541);
+    font-family: serif;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.btn-one{
+    margin-left: 100px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+   font-family: serif;
+   outline: none;
+}
+
+.submit{
+    margin-top: 5px;
+    padding: 10px 10px;
+    background: rgb(61, 145, 140);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-items-1 i{
+    margin: 0px 10px;
+}
+
+.nav-items-2 i{
+    margin: 0px 10px;
+}
+
+.read-more i{
+    margin: 0px 10px;
+}
+
+.icon-items-toggle{
+    color: white;
+    font-family: serif;
+}
+.cont-1{
+     margin-top: 100px;
+     padding: 30px;
+}
+
+.cont-2{
+    display: flex;
+    padding: 10px 10px;
+}
+
+.cont-2 input{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.cont-3{
+    background: cadetblue;
+    font-weight: bold;
+    font-family: serif;
+    color: white;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.cont-4{
+    background: rgba(27, 75, 77, 0.13);
+    font-size: 20px;
+}
+
+.cont-4:focus{
+    color: white;
+}
+
+span{
+    font-family: serif;
+    color: rgba(50, 84, 194, 0.849);
+}
+
+.span{
+    color: rgba(47, 47, 194, 0.658);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    display: flex;
+    font-weight: bold;
+    font-family: serif;
+    
+}
+
+.container i{
+    margin: 0px 10px;
+}
+
+.container-div{
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 200px;
+}
+
+.information{
+    margin-top: 100px;
+}
+
+.info{
+    text-align: center;   
+    font-size: 35px;
+}
+
+.flex-1{
+    background: rgba(255, 253, 243, 0.644);
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+.flex-1 img{
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+.flex-1 a{
+    color: yellowgreen;
+}
+
+.flex-2{
+    background:  rgba(255, 253, 243, 0.644);
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+  
+}
+
+.flex-2 a{
+    color: yellowgreen;
+}
+
+.flex-2 img{
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+.flex-3{
+    background:  rgba(255, 253, 243, 0.644);
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+.flex-3 a{
+    color: yellowgreen;
+}
+
+.flex-3 img{
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+
+
+.container{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.img-1{
+   height: 600px;
+   margin-top: 60px;
+}
+
+.img-4{
+    margin-top: 40px;
+}
+
+h2{
+    margin: 15px;
+    font-family: serif;
+}
+
+h1{
+   font-size: 45px;
+   font-family: sans-serif;
+   font-weight: bold;
+   margin: 10px;
+}
+
+p{
+   font-family: serif;
+   color: rgba(0, 0, 0, 0.726);
+   font-size: 15px;
+   margin: 10px;
+   line-height: 25px;
+}
+
+.read-more{
+   color: rgba(3, 3, 145, 0.699);
+   margin: 5px;
+   font-size: 12px;
+   font-weight: bold;
+   font-family: serif;
+}
+
+.demo{
+    margin: 10px;
+    border-radius: 4px;
+    background: rgba(255, 0, 0, 0.582);
+    color: white;
+    width: 35%;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.shape{
+   height: 144.5px;
+}
+
+.cont-div{
+    margin-top: 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+}
+
+.section{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main{
+    margin-top: 40px;
+}
+
+.item-input{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    border: none;
+    outline: none;
+    background: rgba(139, 172, 172, 0.315);
+    padding: 5px 10px;
+}
+
+.input-1{
+    border: none;
+    outline: none;
+    background: rgb(71, 172, 175);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.security{
+    color: rgba(0, 0, 0, 0.637);
+    font-family: serif;
+}
+
+span li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+
+span li.checked {
+    color: rgb(0, 0, 0);
+  }
+  
+
+  span li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(7, 50, 243);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+  .topic-features{
+      margin-top: 10px;
+      font-family: serif;
+      font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-features{
+    background: rgb(43, 58, 58);
+    height: 90vh;
+}
+
+.first-price{
+    background: honeydew;
+    padding-left: 15px;
+    width: 30%;
+
+}
+
+.second-price{
+    border-top: 4px solid red;
+    background: honeydew;
+    padding-left: 15px;
+    width: 30%;
+    position: relative;
+
+}
+
+.promo{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: red;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 20px;
+    margin: 4px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.third-price{
+    background: honeydew;
+    width: 30%;
+    padding-left: 15px;
+}
+
+.para{
+    margin-top: 40px;
+}
+
+button{
+    background: rgb(58, 170, 173);
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+#descript{
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+}
+
+span li.check {
+    color: rgb(0, 0, 0);
+  }
+
+  .first-price span li:nth-child(3){
+    text-decoration: line-through;
+  }
+
+  .first-price span li:nth-child(4){
+    text-decoration: line-through;
+  }
+
+.third-price span li:nth-child(3){
+    text-decoration: none;
+}
+
+.third-price span li:nth-child(4){
+    text-decoration: none;
+}
+
+.second-price span li:nth-child(3){
+    text-decoration: none;
+}
+
+.second-price span li:nth-child(4){
+    text-decoration: line-through;
+}
+  
+
+  span li.check::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(14, 14, 15);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+  span li{
+      font-size: 15px;
+      font-family: serif;
+      color: rgba(0, 0, 0, 0.281);
+  }
+
+  .span{
+      text-align: center;
+      font-family: serif;
+      font-weight: bold;
+  }
+
+  .span a{
+      color: white;
+      font-family: serif;
+  }
+
+  h3{
+      font-weight: bold;
+      font-family: serif;
+      text-transform: uppercase;
+  }
+
+  h4{
+      font-family: serif;
+      margin: 5px;
+      color: rgba(0, 0, 0, 0.685);
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  h5{
+      margin: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h6{
+      margin: 5px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.774);
+  }
+
+  .support a{
+      color: black;
+      font-family: serif;
+      margin: 5px;
+      text-transform: capitalize; 
+  }
+
+  .menu a{
+    color: black;
+    font-family: serif;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+.product a{
+    color: black;
+    font-family: serif;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
